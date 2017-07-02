@@ -1,0 +1,12 @@
+$ cd myproject
+$ git init
+$ git add test.txt
+$ git commit -m 'comment' //‘comment’是所添加的注释，加-m就不用进入vim
+$ git remote add origin https://github.com/yangkai1990/python-code.git
+$ git push origin master
+
+如果出现错误，先把remote端的代码clone下来
+git clone https://github.com/yangkai1990/python-code.git
+然后再add，commit，push
+clone之后，本文件夹对应的remote server端就是上面路径，push的时候直接push
+git push
